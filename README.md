@@ -1,15 +1,13 @@
 # TRELLIS.2-ROCm
 
 ## Info:
-![ROCm](https://img.shields.io/badge/ROCm-7.1.1-red.svg)
+### This fork is no longer being developed. 
+I recommend installing via https://github.com/Mateusz-Dera/ROCm-AI-Installer or directly using an alternative fork: https://github.com/hqnicolas/TRELLIS.2_rocm
 
 This is a fork of TRELLIS.2 that enables running 3D model generation on AMD GPUs using ROCm.<br>
 The script uses HIPIFY, and most libraries are patched on the fly; therefore, make sure you have the same versions of ROCm and HIPIFY installed.<br>
 If you want a reliable test environment, it is recommended to use a Podman container (https://github.com/Mateusz-Dera/ROCm-AI-Installer
 ).
-
-> [!Note]
-> An automatic installer for the script above will also be added.
 
 The script uses <b>nvdiffrast-hip</b> from https://github.com/CalebisGross/TRELLIS-AMD
 
@@ -25,7 +23,7 @@ Original repository: https://github.com/microsoft/TRELLIS.2<br>
 Original README: https://github.com/Mateusz-Dera/TRELLIS.2-ROCm/blob/main/ORGINAL_README.md
 
 > [!Note]
-> Core model generation is functional, but I'm in the process of replacing certain modules. Consequently, features such as the model preview or proper texturing are currently unavailable.
+> Core model generation is functional. Features such as the model preview or proper texturing are currently unavailable.
 
 ### Test platform:
 |Name|Info|
